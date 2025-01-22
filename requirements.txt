@@ -1,0 +1,5 @@
+gradio
+transformers[tf-cpu]
+tensorflow
+ipython
+pytest
