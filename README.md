@@ -1,6 +1,6 @@
 ---
 title: text-summarization-hugging-face-gardio
-emoji: :)
+emoji: 🛸
 colorFrom: green
 colorTo: yellow
 sdk: gradio
