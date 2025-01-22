@@ -16,8 +16,8 @@ jobs:
       - name: Add remote 
         env:
           HF: ${{ secrets.HG }}
-        run: git remote add space https://mksgh:$HF@huggingface.co/spaces/mksgh/demo-gradio2
+        run: git remote add space https://mksgh:$HF@huggingface.co/spaces/mksgh/demo-gradio
       - name: Push to hub
         env:
           HF: ${{ secrets.HG }}
-        run: git push --force https://mksgh:$HF@huggingface.co/spaces/mksgh/demo-gradio2
+        run: git push --force https://mksgh:$HF@huggingface.co/spaces/mksgh/demo-gradio
